@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="/succes.html"></form>
+      <label for="username">Unesite vas username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="username"
+        required
+      />
+    </div>
+    <br />
+    <label for="email">Unesite vas email</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="user@gmail.com"
+      required
+    />
+    <br />
+    <br />
+    <label for="pass">Unesite lozinku</label>
+    <input type="password" name="password" id="pass" required />
+    <br />
+    <br />
+    <label for="age">Unesite broj godina:</label>
+    <input type="number" name="age" id="age" min="18" max="80" />
+    <br />
+    <br />
+    <label for="BRITHDATE">UNESITE DATUM RODJENJA</label>
+    <input type="DATE" name="BIRTHDTE" id="BIRTHDATE" />
+    <br />
+    <br />
+    <p>Oznacite vase omiljeno voce (moguce je izabrati vise odgovora)</p>
+    <label for="jagode">Jagode</label>
+    <input type="checkbox" name="jagode" id="jagode" checked />
+    <br />
+    <label for="banane">Banane</label>
+    <input type="checkbox" name="banane" id="banane" checked />
+    <br />
+    <br />
+    <p>Oznacite pol</p>
+    <label for="m">M</label>
+    <input type="radio" name="pol" id="m" value="M" />
+    <label for="Z">Z</label>
+    <input type="radio" name="pol" id="Z" value="Z" />
+    <br />
+    <br />
+    <label for="Bio">Unesite vasu biografiju:</label>
+    <textarea name="bio" id="bio" cols="15" rows="10"></textarea>
+    <br />
+    <br />
+    <label for="phone">Unesite vas broj telefona</label>
+    <input type="tel" name="phone" id="phone" required />
+    <br />
+    <br />
+    <label for="color">Odaberite vasu omiljenu boju</label>
+    <input type="color" name="boja" id="color" />
+    <br />
+    <br />
+    <label for="file">Umetnite vas CV obrazac</label>
+    <input type="file" name="CV" id="file" />
+    <br />
+    <br />
+    <p>Oznacite boju vasih ociju</p>
+    <select name="eyecolor" id="eyecolor">
+      <option value="zelena">zelena</option>
+      <option value="zelena">braon</option>
+      <option value="zelena">plava</option>
+      <option value="zelena">crna</option>
+    </select>
+    <br />
+    <br />
+    <button type="reset">Resetuj</button>
+    <button type="submit">Potvrdi</button>
+    <!-- napraviti novi html fajl koji sadrzi naslov(centriran):"Uspesno ste kreirali nalog!"
+    nakon potvrde forme treba da nas odvede na tu novu web stranicu -->
+  </body>
+</html>

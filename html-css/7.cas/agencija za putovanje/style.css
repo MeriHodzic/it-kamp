@@ -1,0 +1,54 @@
+.card {
+  width: 250px;
+  height: 350px;
+  background-color: rgb(86, 181, 181);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid;
+  margin: 30px 30px 30px 0px;
+  /* overflow: visible;
+  overflow: hidden;
+  overflow: scroll;*/
+  /* overflow: auto; */
+  /* overflow-y: hidden; */
+  /* display: block; */
+  display: inline-block;
+  box-shadow: 3px 3px 8px rgba(243, 48, 48, 0.938);
+}
+.ljuljaska {
+  /* visibility: hidden; sakriva element i prostor ostaje rezervisan za taj element. */
+  /* display none sakriva element i prostor moze biti iskoriscen narednim elementom. */
+  display: none;
+}
+.card:nth :nth-of-type(2) {
+  display: none;
+}
+/* Block level html elementi:
+<h1><h2>.....
+<p>
+<div>,<main>,<article>,<section>,<header>,<footer>,<ol>,<ul>,<li> */
+/* INLINE HTML ELEMENTI:
+<input>,<a>,<span>,<button>,<textarea>
+<img> tag je inline-block element to su elementi koji dozvoljavaju definisanje sirine i visine za razliku od inline elemenata*/
+img {
+  width: 100%;
+  height: 35%;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+h4 {
+  font-size: 13px;
+  margin: 6px;
+}
+p {
+  font-size: 11px;
+  margin: 6px;
+}
+.card:hover {
+  background-color: rgb(101, 75, 167);
+}
+.card img:hover {
+  content: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+}
