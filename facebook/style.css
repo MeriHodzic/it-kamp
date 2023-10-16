@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap");
+h1 {
+  color: rgb(6, 6, 130);
+}
+
+.main {
+  width: 400px;
+  height: 200px;
+  float: left;
+  /* margin: 240px 130px 130px 80px; */
+  margin-left: 280px;
+  margin-top: 220px;
+}
+.second {
+  width: 300px;
+  height: 280px;
+  float: right;
+  margin-right: 480px;
+  margin-top: 180px;
+  border-radius: 8px;
+  box-shadow: 2px 3px #666;
+}
+form {
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+
+.button {
+  padding: 10px 60px;
+  font-size: 10px;
+  text-align: center;
+  background-color: blue;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+.button:hover {
+  background-color: rgb(190, 195, 199);
+}
+.button:active {
+  background-color: rgb(180, 178, 176);
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.box {
+  padding: 10px 45px;
+  font-size: 8px;
+  text-align: center;
+  background-color: aliceblue;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+.box:hover {
+  background-color: rgb(162, 162, 162);
+}
+
+.box:active {
+  background-color: rgb(97, 97, 97);
+  box-shadow: 0 3px;
+  transform: translateY(2px);
+}
+
+.first {
+  padding: 10px 10px;
+  font-size: 10px;
+  text-align: center;
+  background-color: rgb(42, 178, 30);
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #666;
+  margin-left: 28px;
+}
+
+.tekst {
+  width: 300px;
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-left: 450px;
+  margin-right: 470px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.new {
+  position: fixed;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: 90px;
+}
+.login {
+  border: 5px;
+  background-color: rgb(218, 7, 7);
+  width: 55px;
+  height: 15px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 60px;
+  border-radius: 5px;
+  text-align: center;
+  color: antiquewhite;
+  padding: 10px 10px;
+}
+.more {
+  float: right;
+  border: 5px;
+  text-align: center;
+  width: 58px;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 15px;
+  background-color: brown;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.contact {
+  float: right;
+  border: 5px;
+  border-radius: 5px;
+  background-color: brown;
+  height: 20px;
+  width: 70px;
+  margin-top: 25px;
+  margin-right: 15px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.about {
+  float: right;
+  border: 5px;
+  border-radius: 5px;
+  background-color: brown;
+  height: 20px;
+  width: 83px;
+  margin-top: 25px;
+  margin-right: 13px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.home {
+  float: right;
+  border: 5px;
+  border-radius: 5px;
+  background-color: brown;
+  height: 20px;
+  width: 58px;
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 13px;
+  padding: 10px 10px;
+}

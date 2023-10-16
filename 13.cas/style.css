@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  /* background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0); */
+  font-family: AR One Sans, sans-serif;
+}
+.main {
+  /* background-color: rgba(62, 116, 116); */
+  /* opacity: 0.5; */
+  width: 500px;
+  height: 500px;
+  /* rgba cini nasu pozadinu prozirnom u odredjenoj meri - zavisi od parametra (0-1) */
+  /* opacity cini ceo element oprozirnim(sa sve sadrzajem) */
+}
+img {
+  width: 800px;
+  height: 400px;
+  float: left;
+  margin-right: 15px;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(55, 71, 162, 0.2);
+  float: left;
+}
+.box2 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(115, 126, 189);
+  float: left;
+}
+.paragraf {
+  clear: both;
+}

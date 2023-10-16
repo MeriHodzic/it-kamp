@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+  font-family: "AR One Sans", sans-serif;
+}
+.first {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+.second {
+  background-color: brown;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+.slika {
+  color: blue;
+  font-size: 50px;
+}
+.ikonica {
+  color: azure;
+  font-size: 30px;
+}
+.icon {
+  text-align: center;
+}
+.first > p {
+  color: rgb(222, 82, 64);
+}
+.first + p {
+  color: rgb(156, 226, 43);
+}
+a {
+  color: rgb(22, 3, 34);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+}
+a:hover {
+  background-color: rgb(4, 50, 35);
+  color: antiquewhite;
+}
+a:active {
+  color: black;
+}
+first:active {
+  color: black;
+}
+a:visited {
+  color: rgb(161, 103, 216);
+}
+
+/* stilovi za prvi p tag koji se nalazi nakon .first kontejnera */
+/* stilovi za svaki p tag koji se nalazi unutar .first kontejnera .first p */
