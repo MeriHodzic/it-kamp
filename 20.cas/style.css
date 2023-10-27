@@ -2,3 +2,40 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+.main {
+  background-color: blueviolet;
+  color: rgb(179, 135, 219);
+  font-size: 2rem;
+}
+/* /* @media all and (max-width: 500px) {
+  .main {
+    background-color: blueviolet;
+    color: rgb(179, 135, 219);
+    font-size: 1rem;
+  }
+}
+@media (orientation:portrait) {
+    .main {
+      background-color: blueviolet;
+      color: rgb(179, 135, 219);
+      font-size: 1rem;
+    }
+} */
+
+@media all and (max-width: 500px), (max-height: 400px) {
+  .main {
+    /* background-color: blueviolet; */
+    color: rgb(179, 135, 219);
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .main {
+    /* background-color: blueviolet; */
+    color: rgb(54, 22, 84);
+    background-color: blue;
+    font-size: 1rem;
+  }
+}
