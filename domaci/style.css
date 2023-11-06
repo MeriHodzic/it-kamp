@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* .logo { 
+    height: 50px;
+    width: 100px;
+} */
+
+.header {
+  position: fixed;
+  z-index: 100;
+  background-color: black;
+  height: 80px;
+  border-bottom: solid 1px gray;
+  width: 100%;
+  /* box-shadow: 0px 33px 15px -3px rgba(0,0,0,0.1); */
+}
+
+.info {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  gap: 31px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.info a {
+  color: white;
+}
+
+.ikonice {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-right: 30px;
+}
+
+.slika1 {
+  height: 900px;
+}
+
+.lake {
+  font-size: 65px;
+  color: white;
+  position: absolute;
+  top: 700px;
+  left: 600px;
+}
+
+.nature {
+  font-size: 22px;
+  color: white;
+  position: relative;
+  left: 700px;
+  bottom: 230px;
+}
+
+.moment {
+  font-size: 40px;
+  position: relative;
+  left: 100px;
+}
+
+.grad {
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  color: gray;
+}
+
+.potpis {
+  margin: 0;
+  width: 200px;
+  position: relative;
+  left: 100px;
+  top: 150px;
+}
+
+.broj {
+  font-size: 100px;
+  position: relative;
+  bottom: 640px;
+  margin-left: 1060px;
+}
+
+.years {
+  color: gray;
+  font-size: 19px;
+  position: relative;
+  bottom: 642px;
+  margin-left: 1060px;
+}
+.quote {
+  position: relative;
+  margin-left: 1050px;
+  bottom: 630px;
+  font-size: 22px;
+}
+
+.button {
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: 25px;
+  position: relative;
+  margin-left: 1050px;
+  bottom: 610px;
+}
+.fotograf {
+  margin-left: 680px;
+  width: 230px;
+  position: relative;
+  bottom: 350px;
+}
